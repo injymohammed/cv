@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f6f6f6;
+  color: #333;
+}
+
+.header {
+  background: linear-gradient(135deg, #ff7eb3, #ff4f8b);
+  text-align: center;
+  padding: 40px;
+  color: white;
+}
+
+.header img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 6px solid white;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.section {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.skill {
+  margin-bottom: 15px;
+}
+
+.bar {
+  background: #ddd;
+  height: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bar div {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, #ff4f8b, #ff7eb3);
+  transition: width 1.5s;
+}
+
+.timeline li {
+  margin: 10px 0;
+}
+
+.project {
+  text-align: center;
+}
+
+.project img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.cert-link {
+  color: #ff4f8b;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.cert-grid img {
+  width: 100%;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.back-home {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.back-home a {
+  color: #ff4f8b;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal img {
+  max-width: 85%;
+  border-radius: 10px;
+}
